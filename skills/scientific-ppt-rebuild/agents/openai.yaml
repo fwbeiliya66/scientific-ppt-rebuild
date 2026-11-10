@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scientific PPT Rebuild"
+  short_description: "Restore paper figures. Rebuild editable slides."
+  default_prompt: "Use $scientific-ppt-rebuild to repair these scientific slides against the supplied papers. Verify each intended claim and Figure/caption correspondence, replace confirmed regions with unchanged original media, correct supported labels and units, and rebuild slide text and structure as native editable objects. Report unresolved evidence, figure provenance and actual PowerPoint QA."

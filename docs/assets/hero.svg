@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+  <title id="title">Scientific PPT Rebuild: restore paper figures, rebuild editable slides</title>
+  <desc id="desc">A neutral teal and graphite banner leads with original-paper figure restoration. A synthetic paper points to its matched Figure 1, then to that original figure in an editable slide. The illustration makes no automatic matching or accuracy claim.</desc>
+  <defs>
+    <g id="source-plot">
+      <rect width="110" height="70" rx="2" fill="#FFFFFF"/>
+      <path d="M10 8V61H104M10 29H104M10 45H104" fill="none" stroke="#D8E4E3" stroke-width="1"/>
+      <path d="M10 12C23 29 39 41 57 49S88 57 104 59" fill="none" stroke="#087F83" stroke-width="2.6"/>
+      <path d="M10 26C33 34 53 42 73 47S94 51 104 53" fill="none" stroke="#20363E" stroke-width="2" stroke-dasharray="5 3"/>
+    </g>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#087F83"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="480" rx="20" fill="#F3F8F7"/>
+  <path d="M630 0V480M660 0V480M690 0V480M720 0V480M750 0V480M780 0V480M810 0V480M840 0V480M870 0V480M900 0V480M930 0V480M960 0V480M990 0V480M1020 0V480M1050 0V480M1080 0V480M1110 0V480M1140 0V480M1170 0V480" stroke="#E5EFED" stroke-width="1"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="60" y="48" width="9" height="9" rx="2" fill="#087F83"/>
+    <text x="82" y="58" font-size="14" font-weight="700" letter-spacing="1.4" fill="#087F83">SCIENTIFIC PPT REBUILD</text>
+    <text x="60" y="151" font-size="48" font-weight="700" letter-spacing="-1.4" fill="#20363E">Restore paper figures.</text>
+    <text x="63" y="211" font-size="34" font-weight="700" letter-spacing="-.6" fill="#087F83">Rebuild editable slides.</text>
+    <text x="63" y="268" font-size="20" fill="#5B7076">Match the source. Replace draft visuals.</text>
+    <text x="63" y="300" font-size="20" fill="#5B7076">Keep native text and structure editable.</text>
+    <path d="M63 354H567" stroke="#D1E1DE"/>
+    <circle cx="69" cy="394" r="5" fill="#C77644"/>
+    <text x="85" y="400" font-size="14" font-weight="700" letter-spacing=".8" fill="#5B7076">CONTROLLED SYNTHETIC REPAIR DEMO</text>
+    <text x="648" y="105" font-size="10" font-weight="700" letter-spacing=".7" fill="#087F83">SOURCE PAPER</text>
+    <text x="823" y="105" font-size="10" font-weight="700" letter-spacing=".5" fill="#087F83">MATCH FIGURE 1</text>
+    <text x="991" y="105" font-size="10" font-weight="700" letter-spacing=".5" fill="#087F83">RESTORE SLIDE</text>
+    <rect x="652" y="130" width="130" height="171" rx="8" fill="#DCE9E6"/>
+    <rect x="646" y="124" width="130" height="171" rx="8" fill="#FFFFFF" stroke="#B5CEC6" stroke-width="1.5"/>
+    <text x="659" y="146" font-size="9" font-weight="700" fill="#20363E">Synthetic source</text>
+    <path d="M659 160H760M659 170H748" stroke="#D8E4E3" stroke-width="3"/>
+    <use href="#source-plot" transform="translate(657 188) scale(.98)"/>
+    <text x="659" y="279" font-size="10" fill="#5B7076">Page 1 / Figure 1</text>
+    <path d="M790 207H811" fill="none" stroke="#087F83" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="823" y="151" width="122" height="96" rx="7" fill="#FFFFFF" stroke="#8ABDB0" stroke-width="1.5"/>
+    <use href="#source-plot" transform="translate(829 160)"/>
+    <text x="884" y="273" text-anchor="middle" font-size="12" fill="#5B7076">Original PNG</text>
+    <path d="M958 207H979" fill="none" stroke="#087F83" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="996" y="145" width="157" height="118" rx="8" fill="#DCE9E6"/>
+    <rect x="991" y="140" width="157" height="118" rx="8" fill="#FFFFFF" stroke="#B5CEC6" stroke-width="1.5"/>
+    <text x="1003" y="159" font-size="10" font-weight="700" fill="#20363E">Editable slide</text>
+    <use href="#source-plot" transform="translate(1000 178) scale(.76)"/>
+    <rect x="997" y="175" width="90" height="60" rx="3" fill="none" stroke="#087F83" stroke-width="1"/>
+    <path d="M1097 182H1135M1097 194H1130M1097 206H1135" stroke="#B7D5CD" stroke-width="3"/>
+    <rect x="1097" y="220" width="16" height="12" rx="2" fill="#EDF6F5" stroke="#A5CBC1"/>
+    <rect x="1120" y="220" width="16" height="12" rx="2" fill="#EDF6F5" stroke="#A5CBC1"/>
+    <text x="1069.5" y="283" text-anchor="middle" font-size="11" fill="#5B7076">Independent figure</text>
+    <path d="M648 325H1148" stroke="#C9DED8"/>
+    <text x="648" y="349" font-size="11" font-weight="700" letter-spacing=".6" fill="#087F83">PAPER-SUPPORTED FIGURE REPLACEMENT</text>
+    <text x="648" y="381" font-size="21" font-weight="700" fill="#20363E">Original figure, intact.</text>
+    <text x="648" y="410" font-size="16" fill="#5B7076">Corrected formulas + editable structure.</text>
+  </g>
+</svg>

@@ -1,0 +1,3 @@
+Scientific PPT Rebuild. New reusable helpers and workflow documents: see LICENSE.
+The bundled runtime and schema derive from ningzimu/image-to-editable-ppt-skill, under MIT; original notice and license are retained in runtime/NOTICE and runtime/LICENSE.
+Python dependencies are separately licensed. See https://github.com/fwbeiliya66/scientific-ppt-rebuild/blob/main/docs/dependencies.md.

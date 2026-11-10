@@ -1,0 +1,83 @@
+name: Bug report
+description: Report a reconstruction, provenance, rendering, or installation problem.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please use newly created synthetic mathematical examples.
+        Do not attach real slides, papers, research data, private images, credentials, or a full run directory.
+        Remove personal and organizational identifiers, local paths, notes, and hidden metadata from anything you share.
+        See [privacy and sharing](https://github.com/fwbeiliya66/scientific-ppt-rebuild/blob/main/docs/privacy.md).
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Safe reproduction
+      options:
+        - label: This report contains no private task content or credentials. Any attached example uses only newly created synthetic mathematical content.
+          required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      placeholder: "0.1.0 or a commit hash"
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include versions and tool capabilities, not usernames, machine identifiers, tokens, or environment dumps.
+      placeholder: |
+        Operating system:
+        Python:
+        PowerPoint version, or unavailable:
+        Agent and available image/local/worker tools:
+        Rendering route:
+        Optional backend name, if used:
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Failing stage
+      options:
+        - Installation or preflight
+        - Source extraction or paper matching
+        - Page reconstruction
+        - Page validation or scientific audit
+        - Assembly or notes
+        - PowerPoint rendering or edit tests
+        - Delivery or source report
+        - Unsure
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Minimal reproduction
+      description: Give numbered steps and relevant commands. Use neutral paths such as demo-run and synthetic-input.pptx.
+      placeholder: |
+        1. Create or use a synthetic mathematical slide.
+        2. Run ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior and verification result
+      description: State the visible or structural failure and which checks actually ran. Do not mark unavailable QA as passed.
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Sanitized diagnostics or synthetic screenshots
+      description: Include only relevant error excerpts or small synthetic attachments. Inspect files for hidden notes, media, metadata, and paths first.

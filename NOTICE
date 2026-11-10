@@ -1,0 +1,15 @@
+Scientific PPT Rebuild
+
+The bundled runtime and runtime schema derive from:
+https://github.com/ningzimu/image-to-editable-ppt-skill
+Copyright (c) 2026 ningzimu, MIT License.
+
+The original copyright, license and adaptation notice remain at:
+skills/scientific-ppt-rebuild/runtime/LICENSE
+skills/scientific-ppt-rebuild/runtime/NOTICE
+
+New workflow helpers, release tooling, documentation and synthetic demonstration
+materials are distributed under this repository's MIT License. Separately
+installed dependencies retain their own licenses; see docs/dependencies.md.
+No Python runtime, Microsoft Office application, font files, model service
+credentials, third-party plugin binaries or real research materials are bundled.

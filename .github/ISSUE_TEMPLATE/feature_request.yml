@@ -1,0 +1,36 @@
+name: Feature request
+description: Suggest a focused improvement to scientific slide reconstruction.
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the reconstruction need using newly created synthetic mathematical examples.
+        Keep real slides, papers, data, images, personal names, organizational material, local paths, and credentials out of public reports.
+        Scientific evidence must remain unchanged and uncertainty must stay visible.
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What task is difficult, and what currently happens?
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Desired behavior
+      description: Give a concrete input and expected output. Explain which parts should be native objects and which should remain pictures.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Existing approach or smaller alternative
+      description: Describe any current workaround and why it is insufficient.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Public content
+      options:
+        - label: This request contains no private task content or credentials. Any attached example uses only newly created synthetic mathematical content.
+          required: true

@@ -1,0 +1,11 @@
+Bundled runtime Python modules and references/runtime-schema.md are derived
+from ningzimu/image-to-editable-ppt-skill (https://github.com/ningzimu/image-to-editable-ppt-skill).
+Copyright (c) 2026 ningzimu. The original MIT notice is in runtime/LICENSE.
+
+Local adaptations include native PowerPoint geometry, crop/rich-text/group/shape
+support, theme correctness, scientific-original source exceptions, UTF-8 subprocess
+handling, local Office rendering and stronger input/output protection. New helper
+scripts and workflow documents package the scientific representation contract.
+
+No user manuscripts, slides, credentials or task-specific Figure mappings are
+distributed in this skill. A run's data remains in its separate run directory.

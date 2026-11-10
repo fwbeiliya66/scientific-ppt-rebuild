@@ -23,7 +23,7 @@ class InstallTests(unittest.TestCase):
         spec.loader.exec_module(self.installer)
         temporary = tempfile.TemporaryDirectory()
         self.addCleanup(temporary.cleanup)
-        self.root = Path(temporary.name)
+        self.root = Path(temporary.name).resolve()
         self.source = self.root / 'source'
         self.source.mkdir()
         self.target = self.root / 'target with spaces' / '\u793a\u4f8b'
@@ -207,7 +207,7 @@ class WindowsWrapperTests(unittest.TestCase):
     def run_wrapper(self, skip_dependencies):
         self.assertTrue((REPO / 'Install.ps1').is_file(), 'The PowerShell installer wrapper is required')
         with tempfile.TemporaryDirectory() as temporary:
-            root = Path(temporary)
+            root = Path(temporary).resolve()
             wrapper = root / 'Install.ps1'
             shutil.copyfile(REPO / 'Install.ps1', wrapper)
             (root / 'install.py').write_text(
